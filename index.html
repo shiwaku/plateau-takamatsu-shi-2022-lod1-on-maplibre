@@ -98,7 +98,7 @@
       map.addSource("gsidem-terrain-rgb", {
         type: 'raster-dem',
         tiles: [
-          'https://xs489works.xsrv.jp/raster-tiles/gsi/gsi-dem-terrain-rgb/{z}/{x}/{y}.png'
+          'https://shi-works.com/raster-tiles/gsi/gsi-dem-terrain-rgb/{z}/{x}/{y}.png'
         ],
         attribution: '<a href="https://maps.gsi.go.jp/development/ichiran.html#dem" target="_blank">地理院タイル(標高タイル)</a>',
         tileSize: 256
@@ -110,7 +110,7 @@
       // PLATEAU建物（PMTiles）ソース
       map.addSource("plateau-pmtiles", {
         type: "vector",
-        url: "pmtiles://https://shiworks.xsrv.jp/pmtiles-data/plateau/PLATEAU_2022_LOD1.pmtiles",
+        url: "pmtiles://https://shi-works.com/pmtiles/plateau/PLATEAU_2022_LOD1.pmtiles",
         minzoom: 16,
         maxzoom: 16,
         attribution: '<a href="https://www.geospatial.jp/ckan/dataset/plateau">3D都市モデルPLATEAU建築物データ（国土交通省）</a>'
